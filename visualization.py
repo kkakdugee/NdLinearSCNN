@@ -189,9 +189,9 @@ def plot_training_metrics(linear_metrics, ndlinear_metrics, save_path):
     plt.plot(linear_metrics['test_sparsity'], label='Linear Test')
     plt.plot(ndlinear_metrics['train_sparsity'], label='NdLinear Train')
     plt.plot(ndlinear_metrics['test_sparsity'], label='NdLinear Test')
-    plt.title('Sparsity Comparison')
+    plt.title('True Sparsity Comparison')
     plt.xlabel('Epoch')
-    plt.ylabel('Sparsity (% Active Neurons)')
+    plt.ylabel('True Sparsity (% Inactive Neurons)')
     plt.legend()
     
     # Training time comparison
