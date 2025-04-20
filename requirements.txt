@@ -1,0 +1,6 @@
+ndlinear
+torch
+torchvision
+matplotlib
+numpy
+pandas
