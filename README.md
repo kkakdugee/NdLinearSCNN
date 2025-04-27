@@ -39,7 +39,7 @@ To run this project:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/NdLinearSCNN.git
+   git clone https://github.com/kkakdugee/NdLinearSCNN.git
    cd NdLinearSCNN
    ```
 
